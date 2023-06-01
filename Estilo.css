@@ -1,0 +1,155 @@
+/*Herencia*/
+body {
+    font-family: Times, sans-serif;
+    background-color: #b0b0b3;   
+    
+  }
+  /*Selectores*/  
+  h1, h2 {
+    text-align: left;
+  }
+  label {
+    font-weight: bold;
+  }
+  hr {
+    border: 0;
+    border-top: 2px solid #ccc;
+    margin: 20px 0;
+  }
+  #Titulo-principal{
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif ;
+  }
+
+  .box {
+    border: 1px solid #333;
+    padding: 15px;
+  }
+ header {
+      text-align: center;
+      padding: 20px;
+      background-color: #333;
+      color: #fff;
+    }
+
+  .image-right {
+    float: right;
+    margin-left: 10px;
+  }
+  input, textarea {
+    width: 100%;
+    padding: 4px;
+    margin-bottom: 10px;
+  }
+  input[type="submit"] {
+    background-color: #718bbb;
+    color: white;
+    border: none;
+    cursor: pointer;
+    padding: 12px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-bottom: 20px;
+  }
+
+    /* Estilos de cascada */
+   .contenedor {
+      background-color: rgb(207, 109, 102);
+   }
+
+  nav {
+    background-color: #5c5454;
+    padding: 10px;
+  }
+  
+  nav a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 10px;
+    padding: 5px 10px;
+  }
+  
+  nav a:hover {
+    background-color: #464343;
+  }
+
+  nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+
+  nav ul li {
+    display: inline-block;
+    margin-right: 10px;
+  }
+
+  section {
+    padding: 20px;
+    margin-bottom: 20px;
+  }
+
+  aside {
+    width: 200px;
+    padding: 20px;
+    background-color: #ffffff;
+    float: right;
+  }
+  
+  footer {
+    text-align: center;
+    color: #000000; 
+    clear: both;   
+  }
+
+  table {
+    border-collapse: separate;
+    width: 45%;
+
+  }
+
+  td {
+    padding: 9px;
+    text-align: center;
+    border: 1px solid black;
+    font-weight: bold;
+  }
+
+  .progress-bar {
+    margin-bottom: 10px;
+  }
+  
+  .bar-container {
+    background-color: #f0f0f0;
+    height: 20px;
+    border-radius: 10px;
+    overflow: hidden;
+  }
+  
+  .bar {
+    height: 100%;
+    background-color: #4caf50;
+    width: 0;
+    transition: width 0.5s ease;
+  }
+  
+  .percentage {
+    display: block;
+    margin-top: 5px;
+    font-size: 14px;
+    font-weight: bold;
+  }
+   
+  .Fieldset-Design{
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .Fieldset-3D{
+    flex: 1;
+    border: 1px solid black;
+    border-radius: 20px;
+    box-shadow: 0px 0px 10px rgb(116, 115, 115);
+  }
